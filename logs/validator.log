@@ -1,0 +1,3 @@
+2025-11-21T11:56:11.666824 - Normalized fields: ['Issuer', 'ISIN', 'Issue Date', 'Redemption Date', 'Calculation Amount', 'Underlying Asset', 'Autocall Barrier', 'Knock-in Barrier', 'Strike Level', 'Coupon Rate', 'Company Name', 'Date', 'Investor', 'Equity to be Issued', 'Instrument Type', 'Voting Rights']
+2025-11-21T11:56:11.667822 - Validating document_type: unknown
+2025-11-21T11:56:11.668811 - Validation done: type=unknown, score=0

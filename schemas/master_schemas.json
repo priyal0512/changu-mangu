@@ -1,0 +1,93 @@
+{
+  "startup_equity": {
+    "required_fields": [
+      "Company Name",
+      "Investor",
+      "Investment Amount",
+      "Valuation (Pre-Money)",
+      "Valuation (Post-Money)",
+      "Equity to be Issued",
+      "Date"
+    ],
+    "optional_fields": [
+      "Instrument Type",
+      "Board Representation",
+      "Liquidation Preference",
+      "Voting Rights"
+    ]
+  },
+
+  "structured_note": {
+    "required_fields": [
+      "Issuer",
+      "ISIN",
+      "Issue Date",
+      "Redemption Date",
+      "Underlying Asset",
+      "Calculation Amount"
+    ],
+    "optional_fields": [
+      "Autocall Barrier",
+      "Knock-in Barrier",
+      "Strike Level",
+      "Coupon Rate"
+    ]
+  },
+
+  "venture_debt": {
+    "required_fields": [
+      "Borrower",
+      "Loan Amount",
+      "Interest Rate",
+      "Maturity Date"
+    ],
+    "optional_fields": [
+      "Warrant Coverage",
+      "Covenants"
+    ]
+  },
+
+  "bank_loan": {
+    "required_fields": [
+      "Borrower",
+      "Facility Amount",
+      "Interest Rate",
+      "Tenor"
+    ],
+    "optional_fields": [
+      "Security",
+      "Commitment Fee"
+    ]
+  },
+
+  "m_and_a": {
+    "required_fields": [
+      "Buyer",
+      "Seller",
+      "Purchase Price",
+      "Closing Date"
+    ],
+    "optional_fields": [
+      "Earn-out",
+      "Escrow Amount"
+    ]
+  },
+
+  "real_estate": {
+    "required_fields": [
+      "Property",
+      "Buyer",
+      "Seller",
+      "Possession Date"
+    ],
+    "optional_fields": [
+      "Lease Terms",
+      "Title Details"
+    ]
+  },
+
+  "unknown": {
+    "required_fields": [],
+    "optional_fields": []
+  }
+}

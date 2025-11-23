@@ -1,0 +1,396 @@
+2025-11-11 19:48:47.374686 - 🚀 Sending validation request to OpenAI API...
+2025-11-11 19:48:52.264680 - ❌ AI validation failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-11-11 20:01:06.959890 - 🚀 Sending validation request to OpenAI API...
+2025-11-11 20:01:21.075035 - ❌ AI validation failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-11-11 20:02:40.841761 - 🚀 Sending validation request to OpenAI API...
+2025-11-11 20:02:43.283126 - ❌ AI validation failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-11-11 20:06:41.202806 - 🚀 Sending validation request to OpenAI API...
+2025-11-11 20:06:44.324744 - ❌ AI validation failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-11-12T15:25:40.911271 - 🚀 Sending validation request to Gemini API...
+2025-11-12T15:25:42.708751 - ❌ Gemini validation failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-12T15:42:29.421482 - ❌ Gemini API error 404: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-11-12T15:43:06.082562 - ❌ Gemini API error 404: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-11-12T15:54:06.198711 - 🚀 Sending request to Gemini API...
+2025-11-12T15:54:06.757199 - ❌ Gemini API error 404: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-11-12T15:58:58.791861 - 🚀 Sending validation request to Gemini API...
+2025-11-12T15:59:06.982066 - ❌ Gemini API error 404: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-11-12T16:11:25.677065 - 🚀 Sending validation request to Gemini API...
+2025-11-12T16:11:26.275058 - ❌ Gemini API error 404: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-11-12T16:11:38.379309 - 🚀 Sending validation request to Gemini API...
+2025-11-12T16:11:46.692541 - ❌ Gemini API error 404: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+2025-11-12T16:20:16.084326 - 🚀 Sending validation request to Gemini API...
+2025-11-12T16:20:25.021061 - 🧠 RAW GEMINI RESPONSE: ```json
+{
+  "validated_fields": {
+    "Company Name": "✅",
+    "Investor": "✅",
+    "Investment Amount": "✅ (Numerical value consistent, descriptive text redundant but not an error)",
+    "Valuation (Pre-Money)": "✅",
+    "Valuation (Post-Money)": "✅",
+    "Equity to be Issued": "✅"
+  },
+  "issues": [],
+  "score": 100,
+  "summary": "The term sheet exhibits excellent internal consistency across investment amount, pre-money, post-money valuations, and equity percentage, with all required fields present."
+}
+```
+2025-11-12T16:20:25.021061 - ✅ Validation completed with score: 100
+2025-11-12T18:32:16.893699 - 🚀 Sending validation request to Gemini API...
+2025-11-12T18:32:20.461835 - ❌ Gemini API error 503: {
+  "error": {
+    "code": 503,
+    "message": "The model is overloaded. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+2025-11-12T18:33:34.042034 - 🚀 Sending validation request to Gemini API...
+2025-11-12T18:33:50.564842 - 🧠 RAW GEMINI RESPONSE: ```json
+{
+  "validated_fields": {
+    "Company Name": "✅",
+    "Investor": "✅",
+    "Investment Amount": "✅",
+    "Valuation (Pre-Money)": "✅",
+    "Valuation (Post-Money)": "✅",
+    "Equity to be Issued": "✅"
+  },
+  "issues": [],
+  "score": 100,
+  "summary": "The term sheet exhibits strong internal consistency across all key financial figures and required administrative fields."
+}
+```
+2025-11-12T18:33:50.566389 - ✅ Validation completed with score: 100
+2025-11-17T22:27:29.846075 - 🚀 Sending validation request to Gemini API...
+2025-11-17T22:27:33.524345 - 🧠 RAW GEMINI RESPONSE: ```json
+{
+  "validated_fields": {
+    "Company Name": "❌ No data provided for validation.",
+    "Investor": "❌ No data provided for validation.",
+    "Investment Amount": "❌ No data provided for validation.",
+    "Valuation (Pre-Money)": "❌ No data provided for validation.",
+    "Valuation (Post-Money)": "❌ No data provided for validation.",
+    "Equity to be Issued": "❌ No data provided for validation."
+  },
+  "issues": [
+    "No term sheet data was provided for analysis. The input was `{\"warning\": \"No structured fields extracted\"}`."
+  ],
+  "score": 0,
+  "summary": "No term sheet data was provided, preventing any logical validation or consistency checks."
+}
+```
+2025-11-17T22:27:33.525344 - ✅ Validation completed with score: 0
+2025-11-19T18:29:47.065804 - 🚀 Sending validation request to Gemini API...
+2025-11-19T18:29:50.523563 - 🧠 RAW GEMINI RESPONSE: ```json
+{
+  "validated_fields": {
+    "Company Name": "❌ with reason: Data missing.",
+    "Investor": "❌ with reason: Data missing.",
+    "Investment Amount": "❌ with reason: Data missing.",
+    "Valuation (Pre-Money)": "❌ with reason: Data missing.",
+    "Valuation (Post-Money)": "❌ with reason: Data missing.",
+    "Equity to be Issued": "❌ with reason: Data missing."
+  },
+  "issues": [
+    "No structured fields were extracted from the term sheet data provided. Cannot perform any logical validations due to missing 'Investment Amount', 'Pre-Money Valuation', 'Post-Money Valuation', 'Equity %', 'Company Name', 'Investor', or 'Date'."
+  ],
+  "score": 0,
+  "summary": "The term sheet data is completely missing, preventing any logical validation of the fields."
+}
+```
+2025-11-19T18:29:50.526511 - ✅ Validation completed with score: 0
+2025-11-19T19:14:29.821043 - 🚀 Sending validation request to Gemini API...
+2025-11-19T19:14:35.180315 - 🧠 RAW GEMINI RESPONSE: ```json
+{
+  "validated_fields": {
+    "Company Name": "❌ Data missing for validation",
+    "Investor": "❌ Data missing for validation",
+    "Investment Amount": "❌ Data missing for validation",
+    "Valuation (Pre-Money)": "❌ Data missing for validation",
+    "Valuation (Post-Money)": "❌ Data missing for validation",
+    "Equity to be Issued": "❌ Data missing for validation"
+  },
+  "issues": [
+    "No structured fields were provided in the input data, preventing any validation checks.",
+    "The input data was: {\"warning\": \"No structured fields extracted\"}"
+  ],
+  "score": 0,
+  "summary": "Validation could not be performed as no structured term sheet data was provided."
+}
+```
+2025-11-19T19:14:35.180315 - ✅ Validation completed with score: 0
+2025-11-19T19:20:35.517899 - 🚀 Sending validation request to Gemini API...
+2025-11-19T19:20:43.042606 - 🧠 RAW GEMINI RESPONSE: ```json
+{
+  "validated_fields": {
+    "Company Name": "✅",
+    "Investor": "✅",
+    "Investment Amount": "✅",
+    "Valuation (Pre-Money)": "✅",
+    "Valuation (Post-Money)": "✅",
+    "Equity to be Issued": "✅"
+  },
+  "issues": [],
+  "score": 100,
+  "summary": "All key financial metrics (investment amount, pre-money valuation, post-money valuation, and equity percentage) are consistent and logically align."
+}
+```
+2025-11-19T19:20:43.043609 - ✅ Validation completed with score: 100
+2025-11-19T23:17:37.903536 - 🚀 Sending validation request to Gemini API...
+2025-11-19T23:17:42.819291 - 🧠 RAW GEMINI RESPONSE: ```json
+{
+  "validated_fields": {
+    "Company Name": "❌ No data provided for validation.",
+    "Investor": "❌ No data provided for validation.",
+    "Investment Amount": "❌ No data provided for validation.",
+    "Valuation (Pre-Money)": "❌ No data provided for validation.",
+    "Valuation (Post-Money)": "❌ No data provided for validation.",
+    "Equity to be Issued": "❌ No data provided for validation."
+  },
+  "issues": [
+    "No term sheet data was provided in the input, preventing any logical validation or consistency checks.",
+    "Missing required field: Company Name (no data)",
+    "Missing required field: Investor (no data)",
+    "Missing required field: Date (no data)"
+  ],
+  "score": 0,
+  "summary": "No term sheet data was provided, preventing any validation or analysis of the fields."
+}
+```
+2025-11-19T23:17:42.823732 - ✅ Validation completed with score: 0
+2025-11-19T23:18:30.537864 - 🚀 Sending validation request to Gemini API...
+2025-11-19T23:18:35.352334 - 🧠 RAW GEMINI RESPONSE: ```json
+{
+  "validated_fields": {
+    "Company Name": "❌ Data missing for validation.",
+    "Investor": "❌ Data missing for validation.",
+    "Investment Amount": "❌ Data missing for validation.",
+    "Valuation (Pre-Money)": "❌ Data missing for validation.",
+    "Valuation (Post-Money)": "❌ Data missing for validation.",
+    "Equity to be Issued": "❌ Data missing for validation."
+  },
+  "issues": [
+    "No structured fields were extracted from the term sheet data provided, preventing any validation checks.",
+    "Cannot check for consistency between Investment Amount, Pre-Money, and Post-Money valuations due to missing data.",
+    "Cannot check for Equity % consistency due to missing data.",
+    "Cannot check if required fields (Company Name, Investor, Date) are filled due to missing data."
+  ],
+  "score": 0,
+  "summary": "Validation is not possible as no structured fields were extracted from the provided term sheet data."
+}
+```
+2025-11-19T23:18:35.353496 - ✅ Validation completed with score: 0
+2025-11-19T23:18:50.844508 - 🚀 Sending validation request to Gemini API...
+2025-11-19T23:18:58.878405 - 🧠 RAW GEMINI RESPONSE: ```json
+{
+  "validated_fields": {
+    "Company Name": "✅",
+    "Investor": "✅",
+    "Investment Amount": "✅ (Amount is clear and used consistently in calculations)",
+    "Valuation (Pre-Money)": "✅ (Consistent with Investment Amount and Post-Money Valuation)",
+    "Valuation (Post-Money)": "✅ (Consistent with Pre-Money Valuation and Investment Amount)",
+    "Equity to be Issued": "✅ (20% equity calculated from Investment Amount / Post-Money Valuation is 10,00,00,000 / 50,00,00,000 = 0.20 or 20%)"
+  },
+  "issues": [],
+  "score": 100,
+  "summary": "All validated fields are logically consistent and accurately reflect standard venture capital term sheet calculations."
+}
+```
+2025-11-19T23:18:58.880465 - ✅ Validation completed with score: 100
+2025-11-21T16:11:36.576648 - 🚀 Sending validation request to Gemini API...
+2025-11-21T16:11:41.595092 - 🧠 RAW GEMINI RESPONSE: ```json
+{
+  "validated_fields": {
+    "Company Name": "❌ Missing data for validation.",
+    "Investor": "❌ Missing data for validation.",
+    "Investment Amount": "❌ Missing data for validation.",
+    "Valuation (Pre-Money)": "❌ Missing data for validation.",
+    "Valuation (Post-Money)": "❌ Missing data for validation.",
+    "Equity to be Issued": "❌ Missing data for validation."
+  },
+  "issues": [
+    "No structured term sheet data was provided for validation. Please provide the extracted fields.",
+    "Cannot perform logical checks (Investment Amount + Pre-Money ≈ Post-Money, Equity % consistency) due to missing input data."
+  ],
+  "score": 0,
+  "summary": "No term sheet data was provided, preventing any validation checks on fields or calculations."
+}
+```
+2025-11-21T16:11:41.597172 - ✅ Validation completed with score: 0
+2025-11-21T16:21:07.066642 - 🚀 Sending validation request to Gemini API...
+2025-11-21T16:21:25.011232 - 🧠 RAW GEMINI RESPONSE: ```json
+{
+  "validated_fields": {
+    "Company Name": "✅",
+    "Investor": "✅",
+    "Investment Amount": "✅",
+    "Valuation (Pre-Money)": "✅",
+    "Valuation (Post-Money)": "✅",
+    "Equity to be Issued": "✅"
+  },
+  "issues": [],
+  "score": 100,
+  "summary": "The key financial metrics and required administrative fields are fully consistent and properly filled."
+}
+```
+2025-11-21T16:21:25.011232 - ✅ Validation completed with score: 100
+2025-11-21T16:40:16.601750 - 📋 Normalized fields: {
+  "warning": "No structured fields extracted"
+}
+2025-11-21T16:40:16.603893 - 🔍 Structure validation: {
+  "has_data": false,
+  "present_fields": [],
+  "missing_fields": [
+    "Company Name",
+    "Investor",
+    "Investment Amount",
+    "Valuation (Pre-Money)",
+    "Valuation (Post-Money)",
+    "Equity to be Issued"
+  ],
+  "empty_fields": [],
+  "total_required": 6,
+  "total_present": 0
+}
+2025-11-21T16:40:16.603893 - ❌ No valid term sheet data extracted.
+2025-11-21T16:49:42.401954 - 📋 Normalized fields: {
+  "Company Name": "SolarEdge Power Pvt. Ltd.",
+  "Date": "November 10, 2025",
+  "Investor": "GreenTech Ventures LLP",
+  "Investment Amount": "\u20b910,00,00,000 (Ten Crore Rupees)",
+  "Valuation \\(Pre-Money\\)": "\u20b940,00,00,000",
+  "Valuation \\(Post-Money\\)": "\u20b950,00,00,000",
+  "Equity to be Issued": "20% of total shares post investment",
+  "Instrument Type": "Series A Preferred Shares",
+  "Board Representation": "1 seat for investor",
+  "Liquidation Preference": "1x non-participating",
+  "Voting Rights": "As per standard Series A terms"
+}
+2025-11-21T16:49:42.401954 - 🔍 Structure validation: {
+  "has_data": true,
+  "present_fields": [
+    "Company Name",
+    "Investor",
+    "Investment Amount",
+    "Equity to be Issued"
+  ],
+  "missing_fields": [
+    "Valuation (Pre-Money)",
+    "Valuation (Post-Money)"
+  ],
+  "empty_fields": [],
+  "total_required": 6,
+  "total_present": 4
+}
+2025-11-21T16:49:42.401954 - 🚀 Sending validation request to Gemini API...
+2025-11-21T16:49:58.537966 - 🧠 RAW GEMINI RESPONSE: ```json
+{
+  "validated_fields": {
+    "Company Name": "✅ Present: SolarEdge Power Pvt. Ltd.",
+    "Investor": "✅ Present: GreenTech Ventures LLP",
+    "Investment Amount": "✅ Valid: ₹10,00,00,000 (Ten Crore Rupees)",
+    "Valuation (Pre-Money)": "❌ Missing data for validation.",
+    "Valuation (Post-Money)": "❌ Missing data for validation.",
+    "Equity to be Issued": "✅ Consistent: 20% of total shares post investment"
+  },
+  "issues": [
+    "Required field 'Date' is present.",
+    "Cannot perform logical check: Investment Amount + Pre-Money ≈ Post-Money Valuation, due to missing 'Valuation (Pre-Money)' and 'Valuation (Post-Money)'.",
+    "Cannot perform logical check: Equity % = (Investment Amount / Post-Money) × 100, due to missing 'Valuation (Post-Money)'."
+  ],
+  "score": 45,
+  "summary": "Key financial valuations (Pre-Money and Post-Money) are missing, preventing crucial mathematical consistency checks, although other present fields are well-formatted and required fields are met."
+}
+```
+2025-11-21T16:49:58.537966 - ✅ Validation completed with score: 45
+2025-11-21T16:52:15.065319 - 📋 Normalized fields: {
+  "warning": "No structured fields extracted"
+}
+2025-11-21T16:52:15.075164 - 🔍 Structure validation: {
+  "has_data": false,
+  "present_fields": [],
+  "missing_fields": [
+    "Company Name",
+    "Investor",
+    "Investment Amount",
+    "Valuation (Pre-Money)",
+    "Valuation (Post-Money)",
+    "Equity to be Issued"
+  ],
+  "empty_fields": [],
+  "total_required": 6,
+  "total_present": 0
+}
+2025-11-21T16:52:15.075743 - ❌ No valid term sheet data extracted.
+2025-11-21T16:54:09.386268 - 📋 Normalized fields: {
+  "warning": "No structured fields extracted"
+}
+2025-11-21T16:54:09.386268 - 🔍 Structure validation: {
+  "has_data": false,
+  "present_fields": [],
+  "missing_fields": [
+    "Company Name",
+    "Investor",
+    "Investment Amount",
+    "Valuation (Pre-Money)",
+    "Valuation (Post-Money)",
+    "Equity to be Issued"
+  ],
+  "empty_fields": [],
+  "total_required": 6,
+  "total_present": 0
+}
+2025-11-21T16:54:09.386268 - ❌ No valid term sheet data extracted.
+2025-11-21T17:33:54.116950 - Validating doc_type=unknown, required=[]
+2025-11-21T17:42:27.970977 - Validating doc_type=unknown, required=[]
+2025-11-21T17:48:10.763539 - Validating doc_type=unknown, required=['Company Name', 'Date', 'Investor', 'Investment Amount', 'Valuation (Pre-Money)', 'Valuation (Post-Money)', 'Equity to be Issued', 'Issuer', 'ISIN', 'Issue Date', 'Redemption Date']
+2025-11-21T17:51:56.559427 - Validating doc_type=unknown, required=['Company Name', 'Date', 'Investor', 'Investment Amount', 'Valuation (Pre-Money)', 'Valuation (Post-Money)', 'Equity to be Issued', 'Issuer', 'ISIN', 'Issue Date', 'Redemption Date']
+2025-11-21T17:53:20.671594 - Validating doc_type=unknown, required=['Company Name', 'Date', 'Investor', 'Investment Amount', 'Valuation (Pre-Money)', 'Valuation (Post-Money)', 'Equity to be Issued', 'Issuer', 'ISIN', 'Issue Date', 'Redemption Date']
+2025-11-21T18:07:07.062312 - Validating doc_type=unknown, required=['Company Name', 'Date', 'Investor', 'Investment Amount', 'Valuation (Pre-Money)', 'Valuation (Post-Money)', 'Equity to be Issued', 'Issuer', 'ISIN', 'Issue Date', 'Redemption Date']
+2025-11-21T19:27:06.238013 - Validating doc_type=unknown, required=['Company Name', 'Date', 'Investor', 'Investment Amount', 'Valuation (Pre-Money)', 'Valuation (Post-Money)', 'Equity to be Issued', 'Issuer', 'ISIN', 'Issue Date', 'Redemption Date']
+2025-11-21T19:52:24.325683 - Validating doc_type=unknown, required=['Company Name', 'Date', 'Investor', 'Investment Amount', 'Valuation (Pre-Money)', 'Valuation (Post-Money)', 'Equity to be Issued', 'Issuer', 'ISIN', 'Issue Date', 'Redemption Date']
+2025-11-21T19:56:11.886409 - Validating doc_type=unknown, required=['Company Name', 'Date', 'Investor', 'Investment Amount', 'Valuation (Pre-Money)', 'Valuation (Post-Money)', 'Equity to be Issued', 'Issuer', 'ISIN', 'Issue Date', 'Redemption Date']
+2025-11-21T19:58:54.567752 - Validating doc_type=unknown, required=['Company Name', 'Date', 'Investor', 'Investment Amount', 'Valuation (Pre-Money)', 'Valuation (Post-Money)', 'Equity to be Issued', 'Issuer', 'ISIN', 'Issue Date', 'Redemption Date']
+2025-11-21T20:02:18.010401 - Validating doc_type=unknown, required=['Company Name', 'Date', 'Investor', 'Investment Amount', 'Valuation (Pre-Money)', 'Valuation (Post-Money)', 'Equity to be Issued', 'Issuer', 'ISIN', 'Issue Date', 'Redemption Date']
