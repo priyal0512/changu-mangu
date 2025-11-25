@@ -1,0 +1,151 @@
+2025-11-21T17:25:53.957729 - 
+============================================================
+2025-11-21T17:25:53.957729 - 🚀 Starting extraction for: C:\Users\HP\Desktop\Final project final final\backend\routes\..\uploads\uploaded_6ac26e366ad1457bb5556a6e967eebd4.pdf
+2025-11-21T17:25:54.749144 - 📄 Extracted 39143 characters from PDF: C:\Users\HP\Desktop\Final project final final\backend\routes\..\uploads\uploaded_6ac26e366ad1457bb5556a6e967eebd4.pdf
+2025-11-21T17:25:54.754559 - Heuristic classifier -> structured_note (score=7)
+2025-11-21T17:25:54.754559 - Detected document_type: structured_note
+2025-11-21T17:25:54.771811 - 📊 Regex extracted 16 fields: ['Issuer', 'ISIN', 'Issue Date', 'Redemption Date', 'Calculation Amount', 'Underlying Asset', 'Autocall Barrier', 'Knock-in Barrier', 'Strike Level', 'Coupon Rate', 'Company Name', 'Date', 'Investor', 'Equity to be Issued', 'Instrument Type', 'Voting Rights']
+2025-11-21T17:25:54.771811 - ⚠️ Regex found only 16 fields or complex type -> using AI fallback...
+2025-11-21T17:25:54.771811 - 🧠 Starting Gemini AI extraction...
+2025-11-21T17:25:55.214814 - ❌ AI extraction error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-21T17:25:55.215817 - ✅ Extraction complete: 16 fields total
+2025-11-21T17:25:55.217338 - 📊 Final extracted fields: {
+  "Issuer": "AND THE ISSUE",
+  "ISIN": "XS2300719858",
+  "Issue Date": "3 September 2021",
+  "Redemption Date": "3 September 2026",
+  "Calculation Amount": "in such",
+  "Underlying Asset": "which is evaluated on a periodic basis, the Securities may redeem early and Securityholders will receive 100% of the Calculation Amount in such",
+  "Autocall Barrier": ", the Issuer shall notify",
+  "Knock-in Barrier": "Level, a cash",
+  "Strike Level": ".",
+  "Coupon Rate": "Provided that a Specified Early Redemption Event has not occurred prior to the relevant Interest Valuation",
+  "Company Name": "and any subsidiaries or affiliates of such holding company.",
+  "Date": "13 August 2021",
+  "Investor": "nor as to the future",
+  "Equity to be Issued": "Index, in the event that the Index",
+  "Instrument Type": "Note",
+  "Voting Rights": "power of an entity."
+}
+2025-11-21T17:33:31.240522 - 
+============================================================
+2025-11-21T17:33:31.245023 - 🚀 Starting extraction for: C:\Users\HP\Desktop\Final project final final\backend\routes\..\uploads\uploaded_340d6d573aba4d9f8a8fd33eace3a90a.pdf
+2025-11-21T17:33:31.771470 - 📄 Extracted 39143 characters from PDF: C:\Users\HP\Desktop\Final project final final\backend\routes\..\uploads\uploaded_340d6d573aba4d9f8a8fd33eace3a90a.pdf
+2025-11-21T17:33:31.820753 - Heuristic classifier -> structured_note (score=7)
+2025-11-21T17:33:31.821291 - Detected document_type: structured_note
+2025-11-21T17:33:31.954755 - 📊 Regex extracted 16 fields: ['Issuer', 'ISIN', 'Issue Date', 'Redemption Date', 'Calculation Amount', 'Underlying Asset', 'Autocall Barrier', 'Knock-in Barrier', 'Strike Level', 'Coupon Rate', 'Company Name', 'Date', 'Investor', 'Equity to be Issued', 'Instrument Type', 'Voting Rights']
+2025-11-21T17:33:31.954755 - ⚠️ Regex found only 16 fields or complex type -> using AI fallback...
+2025-11-21T17:33:31.954755 - 🧠 Starting Gemini AI extraction...
+2025-11-21T17:33:32.340264 - ❌ AI extraction error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-21T17:33:32.340264 - ✅ Extraction complete: 16 fields total
+2025-11-21T17:33:32.347788 - 📊 Final extracted fields: {
+  "Issuer": "AND THE ISSUE",
+  "ISIN": "XS2300719858",
+  "Issue Date": "3 September 2021",
+  "Redemption Date": "3 September 2026",
+  "Calculation Amount": "in such",
+  "Underlying Asset": "which is evaluated on a periodic basis, the Securities may redeem early and Securityholders will receive 100% of the Calculation Amount in such",
+  "Autocall Barrier": ", the Issuer shall notify",
+  "Knock-in Barrier": "Level, a cash",
+  "Strike Level": ".",
+  "Coupon Rate": "Provided that a Specified Early Redemption Event has not occurred prior to the relevant Interest Valuation",
+  "Company Name": "and any subsidiaries or affiliates of such holding company.",
+  "Date": "13 August 2021",
+  "Investor": "nor as to the future",
+  "Equity to be Issued": "Index, in the event that the Index",
+  "Instrument Type": "Note",
+  "Voting Rights": "power of an entity."
+}
+2025-11-21T17:33:39.873811 - 
+============================================================
+2025-11-21T17:33:39.873811 - 🚀 Starting extraction for: C:\Users\HP\Desktop\Final project final final\backend\routes\..\uploads\uploaded_2319d6c5a12f4defbad048271654789c.pdf
+2025-11-21T17:33:40.037111 - 📄 Extracted 39143 characters from PDF: C:\Users\HP\Desktop\Final project final final\backend\routes\..\uploads\uploaded_2319d6c5a12f4defbad048271654789c.pdf
+2025-11-21T17:33:40.066224 - Heuristic classifier -> structured_note (score=7)
+2025-11-21T17:33:40.070744 - Detected document_type: structured_note
+2025-11-21T17:33:40.114848 - 📊 Regex extracted 16 fields: ['Issuer', 'ISIN', 'Issue Date', 'Redemption Date', 'Calculation Amount', 'Underlying Asset', 'Autocall Barrier', 'Knock-in Barrier', 'Strike Level', 'Coupon Rate', 'Company Name', 'Date', 'Investor', 'Equity to be Issued', 'Instrument Type', 'Voting Rights']
+2025-11-21T17:33:40.116255 - ⚠️ Regex found only 16 fields or complex type -> using AI fallback...
+2025-11-21T17:33:40.116255 - 🧠 Starting Gemini AI extraction...
+2025-11-21T17:33:40.448974 - ❌ AI extraction error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-21T17:33:40.448974 - ✅ Extraction complete: 16 fields total
+2025-11-21T17:33:40.454943 - 📊 Final extracted fields: {
+  "Issuer": "AND THE ISSUE",
+  "ISIN": "XS2300719858",
+  "Issue Date": "3 September 2021",
+  "Redemption Date": "3 September 2026",
+  "Calculation Amount": "in such",
+  "Underlying Asset": "which is evaluated on a periodic basis, the Securities may redeem early and Securityholders will receive 100% of the Calculation Amount in such",
+  "Autocall Barrier": ", the Issuer shall notify",
+  "Knock-in Barrier": "Level, a cash",
+  "Strike Level": ".",
+  "Coupon Rate": "Provided that a Specified Early Redemption Event has not occurred prior to the relevant Interest Valuation",
+  "Company Name": "and any subsidiaries or affiliates of such holding company.",
+  "Date": "13 August 2021",
+  "Investor": "nor as to the future",
+  "Equity to be Issued": "Index, in the event that the Index",
+  "Instrument Type": "Note",
+  "Voting Rights": "power of an entity."
+}
+2025-11-21T17:42:12.916878 - Extracted 39143 chars from PDF: C:\Users\HP\Desktop\Final project final final\backend\routes\..\uploads\uploaded_8090a9a553da423896106d16f44b39d2.pdf
+2025-11-21T17:42:12.933911 - Document classified (heuristic): structured_note
+2025-11-21T17:42:12.933911 - Regex extracted fields: ['Investor', 'Equity to be Issued', 'Issuer', 'ISIN', 'Issue Date', 'Redemption Date', 'Underlying Asset', 'Strike Level', 'Autocall Barrier', 'Knock-in Barrier', 'Calculation Amount', 'Coupon Rate']
+2025-11-21T17:42:13.111067 - AI extraction error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-21T17:47:59.042313 - Extracted 39143 chars from PDF: C:\Users\HP\Desktop\Final project final final\backend\routes\..\uploads\uploaded_8b591933f46048389def53c050a88201.pdf
+2025-11-21T17:47:59.042313 - Document classified (heuristic): structured_note
+2025-11-21T17:47:59.059364 - Regex extracted fields: ['Investor', 'Equity to be Issued', 'Issuer', 'ISIN', 'Issue Date', 'Redemption Date', 'Underlying Asset', 'Strike Level', 'Autocall Barrier', 'Knock-in Barrier', 'Calculation Amount', 'Coupon Rate']
+2025-11-21T17:47:59.233917 - AI extraction error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-21T17:51:45.449623 - Extracted 785 chars from PDF: C:\Users\HP\Desktop\Final project final final\backend\routes\..\uploads\uploaded_3399e699ebe2405ca6d45c6e6cb1a37b.pdf
+2025-11-21T17:51:45.449623 - Document classified (heuristic): startup_equity
+2025-11-21T17:51:45.449623 - Regex extracted fields: ['Company Name', 'Investor', 'Investment Amount', 'Equity to be Issued']
+2025-11-21T17:51:45.549281 - AI extraction error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-21T17:53:10.572203 - Extracted 39143 chars from PDF: C:\Users\HP\Desktop\Final project final final\backend\routes\..\uploads\uploaded_fcb3a13430484063a013eda6d0e8d921.pdf
+2025-11-21T17:53:10.574202 - Document classified (heuristic): structured_note
+2025-11-21T17:53:10.576709 - Regex extracted fields: ['Investor', 'Equity to be Issued', 'Issuer', 'ISIN', 'Issue Date', 'Redemption Date', 'Underlying Asset', 'Strike Level', 'Autocall Barrier', 'Knock-in Barrier', 'Calculation Amount', 'Coupon Rate']
+2025-11-21T17:53:10.696597 - AI extraction error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-21T18:06:54.691833 - Extracted 39143 chars from PDF: C:\Users\HP\Desktop\Final project final final\backend\routes\..\uploads\uploaded_47b4712934d04bec87a42fa862b0b5b3.pdf
+2025-11-21T18:06:54.695830 - Document classified (heuristic): structured_note
+2025-11-21T18:06:54.699830 - Regex extracted fields: ['Investor', 'Equity to be Issued', 'Issuer', 'ISIN', 'Issue Date', 'Redemption Date', 'Underlying Asset', 'Strike Level', 'Autocall Barrier', 'Knock-in Barrier', 'Calculation Amount', 'Coupon Rate']
+2025-11-21T18:06:54.894785 - AI extraction error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-21T19:26:53.979482 - Extracted 39143 chars from PDF: C:\Users\HP\Desktop\Final project final final\backend\routes\..\uploads\uploaded_8097ed07c1ff4a189455fa3699f91db9.pdf
+2025-11-21T19:26:53.979482 - Document classified (heuristic): structured_note
+2025-11-21T19:26:53.982814 - Regex extracted fields: ['Investor', 'Equity to be Issued', 'Issuer', 'ISIN', 'Issue Date', 'Redemption Date', 'Underlying Asset', 'Strike Level', 'Autocall Barrier', 'Knock-in Barrier', 'Calculation Amount', 'Coupon Rate']
+2025-11-21T19:26:54.133137 - AI extraction error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-21T19:52:04.768731 - Extracted 39143 chars from PDF: C:\Users\HP\Desktop\Final project final final\backend\routes\..\uploads\uploaded_4d166bcdb9e84b6da4059be45df245b8.pdf
+2025-11-21T19:52:04.784196 - Document classified (heuristic): structured_note
+2025-11-21T19:52:04.787737 - Regex extracted fields: ['Investor', 'Equity to be Issued', 'Issuer', 'ISIN', 'Issue Date', 'Redemption Date', 'Underlying Asset', 'Strike Level', 'Autocall Barrier', 'Knock-in Barrier', 'Calculation Amount', 'Coupon Rate']
+2025-11-21T19:52:04.966004 - AI extraction error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-21T19:55:59.270668 - Extracted 39143 chars from PDF: C:\Users\HP\Desktop\Final project final final\backend\routes\..\uploads\uploaded_7b123742f4a24c688253abce09bc8fe2.pdf
+2025-11-21T19:55:59.270668 - Document classified (heuristic): structured_note
+2025-11-21T19:55:59.274727 - Regex extracted fields: ['Investor', 'Equity to be Issued', 'Issuer', 'ISIN', 'Issue Date', 'Redemption Date', 'Underlying Asset', 'Strike Level', 'Autocall Barrier', 'Knock-in Barrier', 'Calculation Amount', 'Coupon Rate']
+2025-11-21T19:55:59.398682 - AI extraction error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-21T19:58:42.338797 - Extracted 39143 chars from PDF: C:\Users\HP\Desktop\Final project final final\backend\routes\..\uploads\uploaded_bab95d60145648b79deffea19aa14957.pdf
+2025-11-21T19:58:42.340809 - Document classified (heuristic): structured_note
+2025-11-21T19:58:42.343797 - Regex extracted fields: ['Investor', 'Equity to be Issued', 'Issuer', 'ISIN', 'Issue Date', 'Redemption Date', 'Underlying Asset', 'Strike Level', 'Autocall Barrier', 'Knock-in Barrier', 'Calculation Amount', 'Coupon Rate']
+2025-11-21T19:58:42.463225 - AI extraction error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-21T20:02:00.942105 - Extracted 39143 chars from PDF: C:\Users\HP\Desktop\Final project final final\backend\routes\..\uploads\uploaded_81cb0e4a6d5148c78e9081936604e096.pdf
+2025-11-21T20:02:00.942105 - Document classified (heuristic): structured_note
+2025-11-21T20:02:00.942105 - Regex extracted fields: ['Investor', 'Equity to be Issued', 'Issuer', 'ISIN', 'Issue Date', 'Redemption Date', 'Underlying Asset', 'Strike Level', 'Autocall Barrier', 'Knock-in Barrier', 'Calculation Amount', 'Coupon Rate']
+2025-11-21T20:02:01.144061 - AI extraction error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-23T20:10:40.123232 - Extracted 39143 chars from PDF: D:\major project\backend\routes\..\uploads\uploaded_9392b6595553467490ebade0f5046dcb.pdf
+2025-11-23T20:10:40.125961 - Document classified (heuristic): structured_note
+2025-11-23T20:10:40.140372 - Regex extracted fields: ['Investor', 'Equity to be Issued', 'Issuer', 'ISIN', 'Issue Date', 'Redemption Date', 'Underlying Asset', 'Strike Level', 'Autocall Barrier', 'Knock-in Barrier', 'Calculation Amount', 'Coupon Rate']
+2025-11-23T20:10:40.422348 - AI extraction error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-23T20:11:21.557947 - Extracted 785 chars from PDF: D:\major project\backend\routes\..\uploads\uploaded_b70a0e3422e04378a01a5d8dea5b6c0a.pdf
+2025-11-23T20:11:21.558713 - Document classified (heuristic): startup_equity
+2025-11-23T20:11:21.559714 - Regex extracted fields: ['Company Name', 'Investor', 'Investment Amount', 'Equity to be Issued']
+2025-11-23T20:11:21.678382 - AI extraction error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-23T20:18:27.157828 - Extracted 39143 chars from PDF: D:\major project\backend\routes\..\uploads\uploaded_67330ac5661d450caaab81db7b77ff38.pdf
+2025-11-23T20:18:27.162206 - Document classified (heuristic): structured_note
+2025-11-23T20:18:27.170856 - Regex extracted fields: ['Investor', 'Equity to be Issued', 'Issuer', 'ISIN', 'Issue Date', 'Redemption Date', 'Underlying Asset', 'Strike Level', 'Autocall Barrier', 'Knock-in Barrier', 'Calculation Amount', 'Coupon Rate']
+2025-11-23T20:18:27.319031 - AI extraction error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-23T20:19:04.316805 - Extracted 785 chars from PDF: D:\major project\backend\routes\..\uploads\uploaded_9be2bfa174634565a2d21e508276c9a3.pdf
+2025-11-23T20:19:04.317494 - Document classified (heuristic): startup_equity
+2025-11-23T20:19:04.318473 - Regex extracted fields: ['Company Name', 'Investor', 'Investment Amount', 'Equity to be Issued']
+2025-11-23T20:19:04.426113 - AI extraction error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-26T00:23:33.634079 - Extracted 39143 chars from PDF: D:\backend\backend\routes\..\uploads\uploaded_b03ddd40f6cc4f50a5fc728980e41aa7.pdf
+2025-11-26T00:23:33.637555 - Document classified (heuristic): structured_note
+2025-11-26T00:23:33.647270 - Regex extracted fields: ['Investor', 'Equity to be Issued', 'Issuer', 'ISIN', 'Issue Date', 'Redemption Date', 'Underlying Asset', 'Strike Level', 'Autocall Barrier', 'Knock-in Barrier', 'Calculation Amount', 'Coupon Rate']
+2025-11-26T00:23:33.832876 - AI extraction error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-26T00:24:05.499172 - Extracted 785 chars from PDF: D:\backend\backend\routes\..\uploads\uploaded_f75525dff06f4c6094481195dab10f9b.pdf
+2025-11-26T00:24:05.499865 - Document classified (heuristic): startup_equity
+2025-11-26T00:24:05.500411 - Regex extracted fields: ['Company Name', 'Investor', 'Investment Amount', 'Equity to be Issued']
+2025-11-26T00:24:05.593606 - AI extraction error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
